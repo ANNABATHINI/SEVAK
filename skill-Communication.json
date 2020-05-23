@@ -1,0 +1,1240 @@
+{
+  "intents": [
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "ok"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "patientdetails",
+      "examples": [
+        {
+          "text": "age"
+        },
+        {
+          "text": "medical history"
+        },
+        {
+          "text": "gender"
+        },
+        {
+          "text": "blood pressure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "typeofappointment",
+      "examples": [
+        {
+          "text": "video call"
+        },
+        {
+          "text": "audio call"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Utilities_Stop_Service",
+      "examples": [
+        {
+          "text": "Can you disconnect me from the service?"
+        },
+        {
+          "text": "Can you suspend my electric supply for a while as I am going on an extended vacation?"
+        },
+        {
+          "text": "Could you please turn off my lights?"
+        },
+        {
+          "text": "Disconnect form the electric power"
+        },
+        {
+          "text": "Discontinue gas."
+        },
+        {
+          "text": "How do I shut off the gas and electricity?"
+        },
+        {
+          "text": "I am finished with the solar panel service."
+        },
+        {
+          "text": "I don't need a power supply any longer."
+        },
+        {
+          "text": "I would like to discontinue the services."
+        },
+        {
+          "text": "I'd like to cancel the service for my gas."
+        },
+        {
+          "text": "I'm at the end of my tether with your company."
+        },
+        {
+          "text": "I'm done with this service"
+        },
+        {
+          "text": "I'm leaving this solar panel provider for another one."
+        },
+        {
+          "text": "I'm not interested in your service"
+        },
+        {
+          "text": "Remove us from the power grid"
+        },
+        {
+          "text": "Take down the utility"
+        },
+        {
+          "text": "Turn off my electricity supply."
+        },
+        {
+          "text": "Turn off my service."
+        },
+        {
+          "text": "We no longer wish to be connected to the grid"
+        },
+        {
+          "text": "We will not be for a few months. can you cut off energy during the holidays?"
+        }
+      ],
+      "description": "Stop a service."
+    },
+    {
+      "intent": "appointofdoctor",
+      "examples": [
+        {
+          "text": "doctor's appointment"
+        },
+        {
+          "text": "i need the appoint ment of doctor"
+        },
+        {
+          "text": "what are the precautions for patients with sensitive health cases"
+        },
+        {
+          "text": "appointment of doctor"
+        },
+        {
+          "text": "medication for asthma patients"
+        },
+        {
+          "text": "medication for heart patients, pregnancy of women"
+        },
+        {
+          "text": "how to handle the sensitive health cases"
+        }
+      ],
+      "description": "To consult a health specialist in case of sensitive health issues"
+    },
+    {
+      "intent": "casecategory",
+      "examples": [
+        {
+          "text": "heart patient"
+        },
+        {
+          "text": "pregnancy"
+        },
+        {
+          "text": "asthma"
+        },
+        {
+          "text": "migraine"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Utilities_Start_Service",
+      "examples": [
+        {
+          "text": "Would you please fix electricity connection?"
+        },
+        {
+          "text": "Who do I need to contact in order to get a gas supply to my location?"
+        },
+        {
+          "text": "What is the process for starting this service?"
+        },
+        {
+          "text": "We completed the required building inspection so please connect the gas."
+        },
+        {
+          "text": "The house is backed up please check if the gas is working and begin the supply of gas to the house"
+        },
+        {
+          "text": "Start utilities."
+        },
+        {
+          "text": "I'd like to get electricity in my house"
+        },
+        {
+          "text": "I wish to start an electrical supply what are the steps to achieving this?"
+        },
+        {
+          "text": "I want a reconnection of my gas service"
+        },
+        {
+          "text": "I need information on requesting service."
+        },
+        {
+          "text": "How to reactivate my gas service?"
+        },
+        {
+          "text": "How to get my power supply connected?"
+        },
+        {
+          "text": "How to I get my electricity supply hooked up?"
+        },
+        {
+          "text": "How do I turn the lights on in my new home?"
+        },
+        {
+          "text": "How do I arrange for my service to begin?"
+        },
+        {
+          "text": "How can I turn on the gas?"
+        },
+        {
+          "text": "How can I start electricity?"
+        },
+        {
+          "text": "How I get power for the first time?"
+        },
+        {
+          "text": "Explain how to connect the electric service"
+        },
+        {
+          "text": "Add the electricity to home"
+        }
+      ],
+      "description": "Start a service."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "generalgreetings",
+      "examples": [
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "consultadoctor",
+      "examples": [
+        {
+          "text": "how to reduce the adverse effects of sensitive health cases"
+        },
+        {
+          "text": "prescription of doctor for sensitive health cases"
+        },
+        {
+          "text": "symptoms of sensitive health cases"
+        },
+        {
+          "text": "emergency of a health issue"
+        },
+        {
+          "text": "consult a health specialist"
+        }
+      ],
+      "description": "consult a health specialist for specific health issues of the use"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "location",
+      "examples": [
+        {
+          "text": "district"
+        },
+        {
+          "text": ":"
+        },
+        {
+          "text": "pincode"
+        },
+        {
+          "text": "landmark"
+        },
+        {
+          "text": "village-"
+        },
+        {
+          "text": "pin code-"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "district-"
+        },
+        {
+          "text": "city"
+        },
+        {
+          "text": "village"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "9"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "6"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "8"
+        },
+        {
+          "text": "-"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        }
+      ],
+      "description": "Greet the bot."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "consultation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "doctor appointment",
+          "synonyms": [
+            "consultation",
+            "prescription",
+            "medical advise",
+            "house call"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "prescription",
+          "synonyms": [
+            "medical receipt for medicine",
+            "medication",
+            "required medicine"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://www.google.com/search?rlz=1C1CHBF_enIN793IN793&sxsrf=ALeKk019VEn-cK2tAaBvEG77YkDhiikthQ:1590065292805&q=nearest+hospital+to+me&spell=1&sa=X&ved=2ahUKEwj71Mnn_sTpAhVzxzgGHeEpACMQBSgAegQIDxAn&biw=1366&bih=576.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "appointment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter the patient details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#typeofappointment",
+      "dialog_node": "node_7_1589977878925",
+      "previous_sibling": "node_5_1589973403125"
+    },
+    {
+      "type": "standard",
+      "title": "Appointment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Select case category"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#appointofdoctor",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1589964065599",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait until we allocate you the doctors contact"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#location",
+      "dialog_node": "node_4_1589981676232",
+      "previous_sibling": "node_10_1589981295535"
+    },
+    {
+      "type": "standard",
+      "title": "case category",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "are you sure want an appointment"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#casecategory",
+      "dialog_node": "node_5_1589973403125",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you, sir\nHave a nice day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greetings",
+      "dialog_node": "node_8_1589981959502",
+      "previous_sibling": "node_4_1589981676232"
+    },
+    {
+      "type": "standard",
+      "title": "patient details",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "enter your location details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#patientdetails",
+      "dialog_node": "node_10_1589981295535",
+      "previous_sibling": "node_7_1589977878925"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm Nirdeshi, a communication crisis Chat-bot, How can I help you ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#generalgreetings",
+      "dialog_node": "node_1_1589964065599",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "What can I do for you ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Communication",
+  "language": "en",
+  "description": "To communicate with a health specialist in case of patients with sensitive cases like heart patients, pregnancy of women, etc,."
+}
